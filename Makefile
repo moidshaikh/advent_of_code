@@ -71,7 +71,8 @@ scale:
 
 # -------------------------------
 # Download input (requires session cookie)
-# Place your AoC session token in .session
+# Export your AoC session cookie in terminal before download command
+# use: $>> EXPORT AOC_SESSION=<copy-session-token-from-browser>
 # -------------------------------
 download:
 	@if [ -z "$$AOC_SESSION" ]; then \
