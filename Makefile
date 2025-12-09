@@ -74,7 +74,7 @@ scale:
 # Export your AoC session cookie in terminal before download command
 # use: $>> EXPORT AOC_SESSION=<copy-session-token-from-browser>
 # -------------------------------
-download:
+download: create
 	@if [ -z "$$AOC_SESSION" ]; then \
 		echo "⚠ ERROR: Set AOC_SESSION env variable"; \
 		echo "Example: export AOC_SESSION=YOUR_SESSION_TOKEN"; \
